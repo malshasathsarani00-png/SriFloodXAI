@@ -123,40 +123,40 @@ and Early Warning System for Sri Lanka.
 
 st.divider()
 
-st.subheader("🧠 SriFloodXAI Intelligence Modules")
+st.subheader("SriFloodXAI Intelligence Modules")
 
 col1, col2, col3 = st.columns(3)
 
 with col1:
     st.info("""
-    ### 🌦️ Live Weather
+    ### Live Weather
     Real-time weather conditions and rainfall monitoring.
     """)
     st.page_link(
         "pages/2_Live_Weather.py",
-        label="🌦️ Open Live Weather",
+        label="Open Live Weather",
         use_container_width=True
     )
 
 with col2:
     st.info("""
-    ### 🌊 River Gauges
+    ### River Gauges
     Monitor river levels and current river conditions.
     """)
     st.page_link(
         "pages/3_River_Gauges.py",
-        label="🌊 Open River Gauges",
+        label="Open River Gauges",
         use_container_width=True
     )
 
 with col3:
     st.info("""
-    ### 🤖 Flood Prediction
+    ### Flood Prediction
     AI-powered flood risk prediction using multiple data sources.
     """)
     st.page_link(
         "pages/5_Flood_Prediction.py",
-        label="🤖 Predict Flood Risk",
+        label="Predict Flood Risk",
         use_container_width=True
     )
 
@@ -165,45 +165,45 @@ col4, col5, col6 = st.columns(3)
 
 with col4:
     st.info("""
-    ### 🚨 DMC Alerts
+    ### DMC Alerts
     Monitor official flood warnings and emergency information.
     """)
     st.page_link(
         "pages/4_DMC_Alerts.py",
-        label="🚨 View DMC Alerts",
+        label="View DMC Alerts",
         use_container_width=True
     )
 
 with col5:
     st.info("""
-    ### 📊 Analytics & History
+    ### Analytics & History
     Explore flood information, analytics and previous predictions.
     """)
     st.page_link(
         "pages/7_Analytics.py",
-        label="📊 Open Analytics",
+        label="Open Analytics",
         use_container_width=True
     )
 
     st.page_link(
         "pages/8_History.py",
-        label="🕘 View History",
+        label="View History",
         use_container_width=True
     )
 
 with col6:
     st.info("""
-    ### 🧠 Explainable AI
+    ### Explainable AI
     Understand the factors influencing AI flood predictions.
     """)
     st.page_link(
         "pages/6_Explainable_AI.py",
-        label="🧠 Open Explainable AI",
+        label="Open Explainable AI",
         use_container_width=True
     )
 
 st.divider()
 
 st.caption(
-    "🌊 SriFloodXAI — Early Warning Today, Safer Tomorrow"
+    "SriFloodXAI — Early Warning Today, Safer Tomorrow"
 )
