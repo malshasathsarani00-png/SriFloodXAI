@@ -4,7 +4,7 @@ import base64
 
 st.set_page_config(
     page_title="SriFloodXAI | Home",
-    page_icon="🌊",
+    page_icon="💧",
     layout="wide"
 )
 
@@ -87,16 +87,17 @@ st.markdown("""
     .overview-card {
         min-height: 128px;
         padding: 1.2rem 1.15rem;
-        background: #ffffff;
-        border: 1px solid #e1e8f0;
         border-radius: 16px;
-        box-shadow: 0 5px 16px rgba(20, 50, 90, 0.04);
+        box-shadow: 0 6px 18px rgba(20, 50, 90, 0.07);
+        border: 1px solid rgba(40, 80, 120, 0.10);
+        border-top: 4px solid var(--accent);
+        background: var(--card-bg);
     }
 
-    .overview-icon {
-        font-size: 1.65rem;
-        margin-bottom: 0.45rem;
-    }
+    .card-blue   { --accent: #2f6fad; --card-bg: #f3f8fd; }
+    .card-green  { --accent: #2f8061; --card-bg: #f2f9f6; }
+    .card-purple { --accent: #6756a5; --card-bg: #f6f4fb; }
+    .card-amber  { --accent: #b17828; --card-bg: #fcf8ef; }
 
     .overview-value {
         color: #102f61;
@@ -208,15 +209,19 @@ st.markdown("""
         border-bottom: none;
     }
 
-    .system-emoji {
-        font-size: 1.35rem;
+    .system-marker {
         width: 38px;
         height: 38px;
         border-radius: 10px;
-        background: #f2f7fc;
+        background: #edf4fb;
+        color: #2f6fad;
+        border: 1px solid #d8e6f3;
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.03em;
     }
 
     .system-title {
@@ -291,17 +296,16 @@ st.markdown(f"""
 c1, c2, c3, c4 = st.columns(4, gap="medium")
 
 cards = [
-    ("🌦️", "3", "Main Data Inputs", "Weather • River • DMC"),
-    ("📊", "Random Forest", "Prediction Model", "Flood-risk classification"),
-    ("🧠", "SHAP", "Explainable AI", "Feature-level explanations"),
-    ("🔔", "3", "Alert Methods", "Email • SMS • Sound"),
+    ("card-blue", "3", "Main Data Inputs", "Weather • River • DMC"),
+    ("card-green", "Random Forest", "Prediction Model", "Flood-risk classification"),
+    ("card-purple", "SHAP", "Explainable AI", "Feature-level explanations"),
+    ("card-amber", "3", "Alert Methods", "Email • SMS • Sound"),
 ]
 
-for col, (icon, value, label, note) in zip((c1, c2, c3, c4), cards):
+for col, (card_class, value, label, note) in zip((c1, c2, c3, c4), cards):
     with col:
         st.markdown(f"""
-        <div class="overview-card">
-            <div class="overview-icon">{icon}</div>
+        <div class="overview-card {card_class}">
             <div class="overview-value">{value}</div>
             <div class="overview-label">{label}</div>
             <div class="overview-note">{note}</div>
@@ -321,7 +325,7 @@ with left:
     st.markdown("""
     <div class="source-card">
         <div class="source-head">
-            <div class="source-title">🌦️ OpenWeather API</div>
+            <div class="source-title">OpenWeather API</div>
             <span class="tag">Integrated</span>
         </div>
         <div class="source-text">
@@ -338,7 +342,7 @@ with left:
 
     <div class="source-card">
         <div class="source-head">
-            <div class="source-title">🌊 River-Level Monitoring</div>
+            <div class="source-title">River-Level Monitoring</div>
             <span class="tag">Integrated</span>
         </div>
         <div class="source-text">
@@ -353,7 +357,7 @@ with left:
 
     <div class="source-card">
         <div class="source-head">
-            <div class="source-title">🚨 Disaster Management Centre (DMC)</div>
+            <div class="source-title">Disaster Management Centre (DMC)</div>
             <span class="tag">Integrated</span>
         </div>
         <div class="source-text">
@@ -375,7 +379,7 @@ with right:
         </div>
 
         <div class="system-row">
-            <div class="system-emoji">🌦️</div>
+            <div class="system-marker">01</div>
             <div>
                 <div class="system-title">Live Monitoring</div>
                 <div class="system-sub">Weather and river information</div>
@@ -384,7 +388,7 @@ with right:
         </div>
 
         <div class="system-row">
-            <div class="system-emoji">📈</div>
+            <div class="system-marker">02</div>
             <div>
                 <div class="system-title">Flood Prediction</div>
                 <div class="system-sub">Random Forest risk estimation</div>
@@ -393,7 +397,7 @@ with right:
         </div>
 
         <div class="system-row">
-            <div class="system-emoji">🧠</div>
+            <div class="system-marker">03</div>
             <div>
                 <div class="system-title">Explainable AI</div>
                 <div class="system-sub">SHAP-based model explanations</div>
@@ -402,7 +406,7 @@ with right:
         </div>
 
         <div class="system-row">
-            <div class="system-emoji">🔔</div>
+            <div class="system-marker">04</div>
             <div>
                 <div class="system-title">Alerts & Notifications</div>
                 <div class="system-sub">Email, SMS and sound alerts</div>
@@ -411,7 +415,7 @@ with right:
         </div>
 
         <div class="system-row">
-            <div class="system-emoji">📊</div>
+            <div class="system-marker">05</div>
             <div>
                 <div class="system-title">Analytics & History</div>
                 <div class="system-sub">Trends and previous predictions</div>
@@ -421,7 +425,7 @@ with right:
     </div>
 
     <div class="notice">
-        <strong>🛡️ Decision-support prototype</strong><br>
+        <strong>Decision-support prototype</strong><br>
         AI-generated flood risk and official DMC warning information are kept separate.
         SriFloodXAI does not replace official disaster-management warnings.
     </div>
