@@ -26,8 +26,17 @@ st.markdown("""
     margin-bottom: 1rem;
     box-shadow: 0 8px 24px rgba(0,0,0,0.15);
 }
-.xai-hero h3 { margin: 0 0 .35rem 0; color: white; }
+.xai-hero h3 {
+    margin: 0 0 .35rem 0;
+    color: white;
+    letter-spacing: 0.01em;
+}
+.xai-card b {
+    color: #17345f;
+}
+
 .xai-card {
+    color: #24364d;
     background: rgba(255,255,255,0.90);
     border: 1px solid rgba(120,120,120,0.18);
     border-radius: 16px;
@@ -38,7 +47,7 @@ st.markdown("""
 </style>
 
 <div class="xai-hero">
-  <h3>🔎 Why did the model make this prediction?</h3>
+  <h3>Why did the model make this prediction?</h3>
   <p>SHAP is used to examine global feature importance and explain the latest
   flood-risk prediction in a human-readable way.</p>
 </div>
@@ -47,10 +56,10 @@ st.markdown("""
 st.markdown("""
 <div class="xai-card">
 <b>Explanation Framework</b><br><br>
-✅ SHAP (SHapley Additive Explanations)<br>
-✅ Global Feature Importance Analysis<br>
-✅ Local Prediction Explanation<br>
-✅ Human-Readable Feature Interpretation
+SHAP (SHapley Additive Explanations)<br>
+Global Feature Importance Analysis<br>
+Local Prediction Explanation<br>
+Human-Readable Feature Interpretation
 </div>
 """, unsafe_allow_html=True)
 
@@ -59,7 +68,7 @@ st.markdown("""
 # FEATURE IMPORTANCE
 # =====================================
 
-st.subheader("📊 Global Feature Importance")
+st.subheader("Global Feature Importance")
 
 importance_df = get_feature_importance()
 
@@ -112,13 +121,13 @@ if "xai_input" in st.session_state:
 
     if "xai_district" in st.session_state:
         st.write(
-            f"📍 **District:** "
+            f"**District:** "
             f"{st.session_state['xai_district']}"
         )
 
     if "xai_river" in st.session_state:
         st.write(
-            f"🌊 **River:** "
+            f"**River:** "
             f"{st.session_state['xai_river']}"
         )
 
@@ -180,7 +189,7 @@ if "xai_input" in st.session_state:
         f"""
 Most influential factor for this prediction:
 
-🌟 **{readable_feature}**
+**{readable_feature}**
 
 Current value: **{value}**
 
@@ -203,7 +212,7 @@ else:
 
 st.markdown("""
 <div class="xai-card">
-<b>ℹ️ Interpreting XAI Results</b><br><br>
+<b>Interpreting XAI Results</b><br><br>
 • Shows which features influence model behaviour<br>
 • Helps users understand the latest model output<br>
 • Improves transparency of the prediction process<br>
