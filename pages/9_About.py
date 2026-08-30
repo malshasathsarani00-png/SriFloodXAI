@@ -27,7 +27,15 @@ st.markdown("""
     margin-bottom: 0.8rem;
     box-shadow: 0 5px 18px rgba(0,0,0,0.10);
 }
-.info-card h3 { margin-top: 0; }
+.info-card h3 {
+    margin-top: 0;
+    color: #17345f;
+    border-bottom: 2px solid #d7e8f8;
+    padding-bottom: 0.45rem;
+}
+h3 {
+    color: #17345f;
+}
 .small-card {
     background: rgba(255,255,255,0.90);
     border-radius: 14px;
@@ -39,7 +47,7 @@ st.markdown("""
 </style>
 
 <div class="about-hero">
-  <h2>🌊 SriFloodXAI</h2>
+  <h2>SriFloodXAI</h2>
   <p><b>An Explainable and Context-Aware Real-Time Flood Prediction System Using Edge Intelligence</b></p>
   <p style="margin-top:.55rem;">A final-year research prototype supporting flood monitoring,
   explainable AI predictions, multi-source data integration and context-aware disaster alerts in Sri Lanka.</p>
@@ -51,7 +59,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.markdown("""
     <div class="info-card">
-      <h3>🌦 Weather</h3>
+      <h3>Weather</h3>
       <b>OpenWeather API</b><br><br>
       • Temperature<br>
       • Humidity<br>
@@ -64,7 +72,7 @@ with col1:
 with col2:
     st.markdown("""
     <div class="info-card">
-      <h3>🌊 River Monitoring</h3>
+      <h3>River Monitoring</h3>
       <b>ArcGIS Feature Service</b><br><br>
       • River gauge monitoring<br>
       • Water-level information<br>
@@ -76,7 +84,7 @@ with col2:
 with col3:
     st.markdown("""
     <div class="info-card">
-      <h3>🚨 Official Warnings</h3>
+      <h3>Official Warnings</h3>
       <b>Disaster Management Centre</b><br><br>
       • Flood warnings<br>
       • Disaster advisories<br>
@@ -85,14 +93,14 @@ with col3:
     </div>
     """, unsafe_allow_html=True)
 
-st.markdown("### 🤖 AI Prediction & Explainability")
+st.markdown("### AI Prediction & Explainability")
 
 ai1, ai2 = st.columns(2)
 
 with ai1:
     st.markdown("""
     <div class="info-card">
-      <h3>🌲 Random Forest</h3>
+      <h3>Random Forest</h3>
       <b>Prediction inputs</b><br><br>
       • Rainfall and river level<br>
       • DMC alert status<br>
@@ -105,21 +113,21 @@ with ai1:
 with ai2:
     st.markdown("""
     <div class="info-card">
-      <h3>🧠 SHAP Explainable AI</h3>
+      <h3>SHAP Explainable AI</h3>
       SHAP is used to show how input features influence the model's output and to
       provide human-readable explanations of the latest prediction.<br><br>
       <b>Note:</b> SHAP explains model behaviour; it does not prove that a prediction is correct.
     </div>
     """, unsafe_allow_html=True)
 
-st.markdown("### 📢 Emergency Notification Methods")
+st.markdown("### Emergency Notification Methods")
 
 n1, n2, n3 = st.columns(3)
 
 with n1:
     st.markdown("""
     <div class="small-card">
-      <b>📧 Email Alerts</b><br>
+      <b>Email Alerts</b><br>
       Gmail SMTP is used for higher-risk email notifications when an address is provided.
     </div>
     """, unsafe_allow_html=True)
@@ -127,7 +135,7 @@ with n1:
 with n2:
     st.markdown("""
     <div class="small-card">
-      <b>📱 SMS Alerts</b><br>
+      <b>SMS Alerts</b><br>
       Twilio SMS was implemented and successfully tested during development.
       Live SMS delivery is not maintained in the current prototype.
     </div>
@@ -136,32 +144,32 @@ with n2:
 with n3:
     st.markdown("""
     <div class="small-card">
-      <b>🔊 Sound Alerts</b><br>
+      <b>Sound Alerts</b><br>
       An emergency alarm is presented for CRITICAL-risk predictions.
       Playback depends on browser media permissions.
     </div>
     """, unsafe_allow_html=True)
 
-st.markdown("### 📊 Research Prototype")
+st.markdown("### Research Prototype")
 st.info(
     "The Random Forest model was developed and evaluated using a controlled "
     "model-development flood dataset. SriFloodXAI is a research prototype and "
     "should not be interpreted as a fully validated national flood-warning system."
 )
 
-st.markdown("### 🛠 Technology Stack")
+st.markdown("### Technology Stack")
 st.markdown(
     "`Python`  •  `Streamlit`  •  `Scikit-Learn`  •  `SHAP`  •  `Pandas`  •  "
     "`Plotly`  •  `OpenWeather API`  •  `ArcGIS Feature Service`  •  `Requests`"
 )
 
-st.markdown("### 🔮 Future Improvements")
+st.markdown("### Future Improvements")
 f1, f2 = st.columns(2)
 
 with f1:
     st.markdown("""
     <div class="info-card">
-      <h3>📍 Coverage & Validation</h3>
+      <h3>Coverage & Validation</h3>
       • Extend prediction-model coverage to all 25 districts<br>
       • Validate with larger independent real-world datasets<br>
       • Strengthen official river and warning integrations
@@ -171,7 +179,7 @@ with f1:
 with f2:
     st.markdown("""
     <div class="info-card">
-      <h3>☁️ Platform Development</h3>
+      <h3>Platform Development</h3>
       • Persistent cloud-based prediction history<br>
       • Mobile application support<br>
       • Additional rainfall/geospatial sources<br>
@@ -179,7 +187,7 @@ with f2:
     </div>
     """, unsafe_allow_html=True)
 
-st.markdown("### 🎓 Project Information")
+st.markdown("### Project Information")
 st.markdown("""
 <div class="small-card">
 <b>Student:</b> T. K. M. Sathsarani &nbsp; | &nbsp; <b>Index:</b> 11434<br>
@@ -189,4 +197,4 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-st.success("🇱🇰 SriFloodXAI Version 1.0 — Final Year Research Prototype")
+st.success("SriFloodXAI Version 1.0 — Final Year Research Prototype")
