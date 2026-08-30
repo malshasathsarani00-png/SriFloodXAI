@@ -242,13 +242,13 @@ if not selected_rows.empty:
 
     with col1:
         st.metric(
-            "🌊 River",
+            "River",
             selected["River"]
         )
 
     with col2:
         st.metric(
-            "📏 Current Water Level",
+            "Current Water Level",
             f"{selected['Water Level (m)']:.2f} m"
         )
 
@@ -264,7 +264,7 @@ if not selected_rows.empty:
 
 st.divider()
 
-st.subheader("📊 Current River Levels")
+st.subheader("Current River Levels")
 
 chart_df = df.sort_values(
     "Water Level (m)",
