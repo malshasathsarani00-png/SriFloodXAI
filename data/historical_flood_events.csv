@@ -1,0 +1,501 @@
+district,river,rainfall_mm,river_level_m,dmc_alert,temperature,humidity,flood_occurred
+Matara,Nilwala Ganga,105,3.9,1,26,83,1
+Matara,Nilwala Ganga,35,1.6,0,25,70,0
+Kurunegala,Deduru Oya,208,0.4,1,28,77,1
+Colombo,Kelani Ganga,22,3.5,0,24,84,0
+Badulla,Mahaweli Ganga,23,4.2,0,28,75,0
+Gampaha,Attanagalu Oya,51,0.1,0,29,82,0
+Kalutara,Kalu Ganga,109,1.9,1,33,77,1
+Matara,Nilwala Ganga,108,6.7,1,24,71,1
+Galle,Gin Ganga,232,1.7,1,28,69,1
+Galle,Gin Ganga,179,6.7,1,29,62,1
+Gampaha,Attanagalu Oya,147,6.7,1,24,72,1
+Kalutara,Kalu Ganga,173,6.0,1,24,85,1
+Jaffna,None,166,5.5,1,32,72,1
+Kandy,Mahaweli Ganga,46,2.2,0,30,92,0
+Kurunegala,Deduru Oya,51,7.4,0,24,77,1
+Jaffna,None,242,3.9,1,24,70,1
+Jaffna,None,212,2.0,1,33,71,1
+Kandy,Mahaweli Ganga,193,4.3,1,30,91,1
+Gampaha,Attanagalu Oya,111,2.4,1,24,73,1
+Galle,Gin Ganga,44,2.7,0,28,87,0
+Jaffna,None,152,3.9,1,31,72,1
+Badulla,Mahaweli Ganga,41,0.2,0,31,93,0
+Gampaha,Attanagalu Oya,71,3.8,0,24,88,0
+Kandy,Mahaweli Ganga,64,2.8,0,25,91,0
+Kurunegala,Deduru Oya,87,6.3,0,30,88,1
+Jaffna,None,195,6.5,1,25,90,1
+Matara,Nilwala Ganga,246,3.3,1,30,69,1
+Kandy,Mahaweli Ganga,164,4.2,1,26,68,1
+Colombo,Kelani Ganga,149,7.3,1,31,76,1
+Badulla,Mahaweli Ganga,212,5.5,1,33,86,1
+Colombo,Kelani Ganga,64,6.0,0,28,85,1
+Gampaha,Attanagalu Oya,205,1.1,1,30,80,1
+Gampaha,Attanagalu Oya,80,7.3,0,31,60,1
+Badulla,Mahaweli Ganga,176,6.9,1,26,85,1
+Jaffna,None,58,0.3,0,26,81,0
+Gampaha,Attanagalu Oya,217,1.4,1,25,66,1
+Colombo,Kelani Ganga,32,1.8,0,29,83,0
+Matara,Nilwala Ganga,246,2.4,1,33,75,1
+Colombo,Kelani Ganga,210,7.7,1,26,70,1
+Kandy,Mahaweli Ganga,140,5.2,1,28,66,1
+Jaffna,None,158,4.4,1,29,68,1
+Ratnapura,Kalu Ganga,18,7.5,0,29,85,1
+Kalutara,Kalu Ganga,40,3.4,0,24,65,0
+Galle,Gin Ganga,78,2.6,0,32,60,0
+Galle,Gin Ganga,50,1.7,0,25,92,0
+Ratnapura,Kalu Ganga,157,4.3,1,28,71,1
+Badulla,Mahaweli Ganga,231,1.8,1,30,77,1
+Kurunegala,Deduru Oya,19,5.3,0,25,82,1
+Matara,Nilwala Ganga,108,7.8,1,29,69,1
+Matara,Nilwala Ganga,144,7.1,1,32,86,1
+Colombo,Kelani Ganga,150,1.9,1,31,86,1
+Ratnapura,Kalu Ganga,230,2.4,1,32,83,1
+Kandy,Mahaweli Ganga,63,7.4,0,33,69,1
+Gampaha,Attanagalu Oya,36,3.7,0,29,61,0
+Badulla,Mahaweli Ganga,164,3.2,1,24,83,1
+Kandy,Mahaweli Ganga,24,5.9,0,33,61,1
+Matara,Nilwala Ganga,80,0.4,0,28,90,0
+Kurunegala,Deduru Oya,125,5.5,1,26,65,1
+Galle,Gin Ganga,142,3.4,1,32,76,1
+Kandy,Mahaweli Ganga,118,7.3,1,29,85,1
+Matara,Nilwala Ganga,204,3.0,1,31,71,1
+Gampaha,Attanagalu Oya,34,3.5,0,30,86,0
+Jaffna,None,31,7.5,0,27,71,1
+Kurunegala,Deduru Oya,11,4.3,0,27,78,0
+Matara,Nilwala Ganga,133,2.6,1,32,90,1
+Matara,Nilwala Ganga,152,3.4,1,29,93,1
+Galle,Gin Ganga,16,2.0,0,29,86,0
+Badulla,Mahaweli Ganga,26,0.7,0,28,62,0
+Jaffna,None,171,7.8,1,28,62,1
+Jaffna,None,25,2.2,0,29,63,0
+Ratnapura,Kalu Ganga,222,7.4,1,31,85,1
+Matara,Nilwala Ganga,156,2.1,1,29,94,1
+Gampaha,Attanagalu Oya,23,3.7,0,26,68,0
+Kurunegala,Deduru Oya,81,3.0,0,29,63,0
+Matara,Nilwala Ganga,97,2.6,0,29,67,0
+Kandy,Mahaweli Ganga,58,1.6,0,24,88,0
+Galle,Gin Ganga,99,5.7,0,32,92,1
+Galle,Gin Ganga,166,1.3,1,32,88,1
+Kandy,Mahaweli Ganga,133,0.2,1,31,65,1
+Kurunegala,Deduru Oya,139,5.9,1,25,85,1
+Colombo,Kelani Ganga,185,6.8,1,30,73,1
+Kandy,Mahaweli Ganga,49,7.6,0,32,86,1
+Galle,Gin Ganga,154,1.4,1,32,66,1
+Colombo,Kelani Ganga,1,7.7,0,30,67,1
+Matara,Nilwala Ganga,164,2.7,1,27,92,1
+Jaffna,None,25,2.0,0,25,72,0
+Badulla,Mahaweli Ganga,160,0.8,1,28,67,1
+Colombo,Kelani Ganga,150,5.9,1,26,88,1
+Kalutara,Kalu Ganga,57,7.3,0,32,68,1
+Galle,Gin Ganga,25,0.8,0,28,71,0
+Matara,Nilwala Ganga,10,2.5,0,24,69,0
+Kandy,Mahaweli Ganga,152,4.0,1,25,61,1
+Badulla,Mahaweli Ganga,123,6.7,1,33,71,1
+Badulla,Mahaweli Ganga,210,2.2,1,31,73,1
+Badulla,Mahaweli Ganga,193,7.8,1,27,89,1
+Galle,Gin Ganga,21,6.1,0,29,93,1
+Jaffna,None,24,6.1,0,25,84,1
+Kandy,Mahaweli Ganga,181,5.1,1,31,71,1
+Galle,Gin Ganga,58,6.0,0,33,84,1
+Badulla,Mahaweli Ganga,161,7.7,1,31,81,1
+Galle,Gin Ganga,240,1.6,1,27,67,1
+Badulla,Mahaweli Ganga,127,6.4,1,24,92,1
+Jaffna,None,158,3.4,1,24,91,1
+Kalutara,Kalu Ganga,123,3.1,1,27,62,1
+Kalutara,Kalu Ganga,139,1.2,1,33,69,1
+Kalutara,Kalu Ganga,149,1.7,1,26,73,1
+Gampaha,Attanagalu Oya,156,1.9,1,24,92,1
+Jaffna,None,32,1.0,0,32,88,0
+Ratnapura,Kalu Ganga,189,1.0,1,29,88,1
+Colombo,Kelani Ganga,38,7.4,0,24,73,1
+Kandy,Mahaweli Ganga,113,7.8,1,26,61,1
+Jaffna,None,64,1.1,0,25,61,0
+Colombo,Kelani Ganga,153,3.2,1,29,94,1
+Colombo,Kelani Ganga,81,5.5,0,24,67,1
+Kandy,Mahaweli Ganga,95,1.7,0,27,79,0
+Galle,Gin Ganga,212,0.3,1,32,62,1
+Kandy,Mahaweli Ganga,30,5.1,0,25,87,1
+Kurunegala,Deduru Oya,162,7.7,1,25,78,1
+Kalutara,Kalu Ganga,160,6.3,1,26,67,1
+Matara,Nilwala Ganga,20,4.8,0,33,83,0
+Ratnapura,Kalu Ganga,3,6.5,0,27,73,1
+Jaffna,None,213,0.9,1,26,80,1
+Kalutara,Kalu Ganga,17,2.7,0,26,71,0
+Ratnapura,Kalu Ganga,95,4.0,0,28,63,0
+Gampaha,Attanagalu Oya,130,2.2,1,33,68,1
+Kurunegala,Deduru Oya,224,4.6,1,24,67,1
+Jaffna,None,15,0.1,0,30,91,0
+Ratnapura,Kalu Ganga,19,3.3,0,28,81,0
+Kurunegala,Deduru Oya,223,5.6,1,32,73,1
+Jaffna,None,158,0.6,1,32,70,1
+Galle,Gin Ganga,66,7.7,0,28,70,1
+Colombo,Kelani Ganga,159,2.0,1,25,66,1
+Matara,Nilwala Ganga,206,6.9,1,25,62,1
+Matara,Nilwala Ganga,173,6.0,1,29,93,1
+Kandy,Mahaweli Ganga,124,6.9,1,26,84,1
+Kurunegala,Deduru Oya,246,1.4,1,24,71,1
+Ratnapura,Kalu Ganga,27,4.4,0,25,94,0
+Kalutara,Kalu Ganga,225,5.7,1,29,61,1
+Jaffna,None,147,4.5,1,30,74,1
+Matara,Nilwala Ganga,226,0.1,1,28,67,1
+Matara,Nilwala Ganga,179,6.0,1,32,66,1
+Gampaha,Attanagalu Oya,172,1.9,1,26,67,1
+Badulla,Mahaweli Ganga,102,5.6,1,24,86,1
+Ratnapura,Kalu Ganga,61,2.1,0,28,90,0
+Jaffna,None,23,7.4,0,30,88,1
+Gampaha,Attanagalu Oya,185,4.4,1,26,64,1
+Gampaha,Attanagalu Oya,204,2.2,1,32,81,1
+Kandy,Mahaweli Ganga,145,3.2,1,33,73,1
+Kurunegala,Deduru Oya,208,0.6,1,29,77,1
+Colombo,Kelani Ganga,72,2.4,0,25,75,0
+Jaffna,None,93,2.7,0,24,88,0
+Kalutara,Kalu Ganga,37,6.8,0,32,89,1
+Gampaha,Attanagalu Oya,135,5.8,1,30,92,1
+Kurunegala,Deduru Oya,192,7.4,1,31,95,1
+Gampaha,Attanagalu Oya,163,5.2,1,24,93,1
+Jaffna,None,209,6.7,1,32,62,1
+Colombo,Kelani Ganga,196,6.0,1,30,77,1
+Gampaha,Attanagalu Oya,8,1.6,0,33,93,0
+Colombo,Kelani Ganga,139,3.1,1,28,70,1
+Galle,Gin Ganga,169,4.5,1,31,75,1
+Kalutara,Kalu Ganga,211,7.2,1,33,79,1
+Jaffna,None,136,4.4,1,27,90,1
+Badulla,Mahaweli Ganga,122,5.3,1,31,71,1
+Colombo,Kelani Ganga,71,0.3,0,30,79,0
+Kurunegala,Deduru Oya,119,2.1,1,32,88,1
+Jaffna,None,194,3.9,1,31,86,1
+Gampaha,Attanagalu Oya,142,1.4,1,30,70,1
+Ratnapura,Kalu Ganga,74,5.3,0,30,89,1
+Gampaha,Attanagalu Oya,29,6.6,0,25,76,1
+Badulla,Mahaweli Ganga,45,6.4,0,28,82,1
+Kalutara,Kalu Ganga,167,7.1,1,28,77,1
+Colombo,Kelani Ganga,183,3.7,1,31,79,1
+Kalutara,Kalu Ganga,106,0.0,1,24,84,1
+Galle,Gin Ganga,102,5.8,1,28,93,1
+Matara,Nilwala Ganga,3,0.9,0,28,89,0
+Jaffna,None,234,3.8,1,29,75,1
+Kurunegala,Deduru Oya,215,3.0,1,24,60,1
+Jaffna,None,20,5.5,0,32,92,1
+Matara,Nilwala Ganga,163,5.6,1,26,63,1
+Gampaha,Attanagalu Oya,165,2.6,1,26,73,1
+Kandy,Mahaweli Ganga,243,0.3,1,31,78,1
+Kandy,Mahaweli Ganga,19,6.9,0,24,71,1
+Badulla,Mahaweli Ganga,169,4.2,1,25,75,1
+Gampaha,Attanagalu Oya,206,3.5,1,32,93,1
+Galle,Gin Ganga,24,2.2,0,28,84,0
+Kalutara,Kalu Ganga,243,2.0,1,28,75,1
+Gampaha,Attanagalu Oya,193,2.6,1,30,87,1
+Badulla,Mahaweli Ganga,131,3.2,1,24,86,1
+Gampaha,Attanagalu Oya,206,1.0,1,28,66,1
+Kurunegala,Deduru Oya,221,4.3,1,25,93,1
+Ratnapura,Kalu Ganga,97,5.7,0,33,95,1
+Galle,Gin Ganga,91,1.8,0,24,70,0
+Matara,Nilwala Ganga,156,1.8,1,33,94,1
+Gampaha,Attanagalu Oya,96,4.0,0,33,68,0
+Kurunegala,Deduru Oya,146,0.6,1,32,69,1
+Jaffna,None,158,7.2,1,26,95,1
+Ratnapura,Kalu Ganga,168,7.4,1,31,83,1
+Ratnapura,Kalu Ganga,59,6.5,0,24,68,1
+Jaffna,None,36,5.7,0,25,93,1
+Colombo,Kelani Ganga,1,0.6,0,28,66,0
+Kurunegala,Deduru Oya,148,7.2,1,29,67,1
+Matara,Nilwala Ganga,54,1.4,0,29,60,0
+Badulla,Mahaweli Ganga,123,2.3,1,33,81,1
+Badulla,Mahaweli Ganga,185,5.3,1,33,71,1
+Matara,Nilwala Ganga,219,4.2,1,26,84,1
+Gampaha,Attanagalu Oya,38,3.0,0,26,65,0
+Jaffna,None,83,4.5,0,32,63,0
+Badulla,Mahaweli Ganga,22,5.6,0,25,88,1
+Matara,Nilwala Ganga,122,1.1,1,24,91,1
+Ratnapura,Kalu Ganga,189,6.6,1,24,90,1
+Jaffna,None,218,6.6,1,25,75,1
+Jaffna,None,236,5.7,1,30,61,1
+Gampaha,Attanagalu Oya,21,0.3,0,32,86,0
+Gampaha,Attanagalu Oya,210,7.8,1,28,76,1
+Gampaha,Attanagalu Oya,202,0.5,1,30,74,1
+Badulla,Mahaweli Ganga,113,2.0,1,28,74,1
+Jaffna,None,18,2.3,0,28,68,0
+Kandy,Mahaweli Ganga,77,4.4,0,29,86,0
+Ratnapura,Kalu Ganga,167,2.8,1,28,75,1
+Ratnapura,Kalu Ganga,158,0.6,1,27,76,1
+Jaffna,None,218,5.3,1,24,69,1
+Galle,Gin Ganga,190,4.0,1,26,78,1
+Kurunegala,Deduru Oya,102,0.8,1,30,82,1
+Kandy,Mahaweli Ganga,89,5.7,0,29,77,1
+Galle,Gin Ganga,131,4.1,1,24,91,1
+Matara,Nilwala Ganga,240,3.3,1,31,80,1
+Kurunegala,Deduru Oya,172,7.7,1,29,70,1
+Kurunegala,Deduru Oya,215,1.0,1,27,66,1
+Galle,Gin Ganga,84,5.3,0,31,66,1
+Kalutara,Kalu Ganga,114,3.0,1,25,70,1
+Matara,Nilwala Ganga,216,2.4,1,31,67,1
+Ratnapura,Kalu Ganga,65,0.6,0,31,87,0
+Galle,Gin Ganga,248,6.5,1,29,67,1
+Kalutara,Kalu Ganga,108,2.1,1,32,88,1
+Galle,Gin Ganga,2,2.3,0,30,64,0
+Matara,Nilwala Ganga,13,7.0,0,25,65,1
+Jaffna,None,193,0.4,1,33,91,1
+Kurunegala,Deduru Oya,137,7.0,1,27,64,1
+Ratnapura,Kalu Ganga,6,5.3,0,24,92,1
+Badulla,Mahaweli Ganga,45,5.0,0,24,61,0
+Kandy,Mahaweli Ganga,139,3.4,1,24,88,1
+Galle,Gin Ganga,194,6.5,1,31,79,1
+Jaffna,None,23,4.3,0,29,68,0
+Galle,Gin Ganga,225,5.6,1,27,67,1
+Galle,Gin Ganga,106,2.8,1,26,71,1
+Kalutara,Kalu Ganga,178,3.9,1,28,75,1
+Kandy,Mahaweli Ganga,217,7.0,1,29,95,1
+Badulla,Mahaweli Ganga,216,5.5,1,33,87,1
+Jaffna,None,118,1.7,1,26,95,1
+Colombo,Kelani Ganga,237,3.3,1,25,75,1
+Galle,Gin Ganga,28,5.5,0,25,87,1
+Colombo,Kelani Ganga,184,3.3,1,33,79,1
+Galle,Gin Ganga,207,4.5,1,26,69,1
+Gampaha,Attanagalu Oya,240,3.3,1,28,65,1
+Ratnapura,Kalu Ganga,153,3.6,1,24,60,1
+Colombo,Kelani Ganga,170,5.1,1,32,60,1
+Colombo,Kelani Ganga,1,5.7,0,24,72,1
+Matara,Nilwala Ganga,244,0.1,1,26,84,1
+Kalutara,Kalu Ganga,215,0.1,1,29,63,1
+Kurunegala,Deduru Oya,247,3.2,1,31,87,1
+Galle,Gin Ganga,140,3.1,1,30,82,1
+Colombo,Kelani Ganga,52,3.5,0,25,89,0
+Kurunegala,Deduru Oya,15,3.8,0,27,88,0
+Kurunegala,Deduru Oya,55,3.2,0,27,79,0
+Jaffna,None,48,5.1,0,31,63,1
+Ratnapura,Kalu Ganga,194,6.8,1,27,62,1
+Badulla,Mahaweli Ganga,63,6.1,0,32,82,1
+Colombo,Kelani Ganga,142,6.8,1,32,67,1
+Colombo,Kelani Ganga,181,5.6,1,26,88,1
+Colombo,Kelani Ganga,230,6.7,1,29,86,1
+Kurunegala,Deduru Oya,163,2.1,1,30,91,1
+Kalutara,Kalu Ganga,28,5.7,0,33,81,1
+Kurunegala,Deduru Oya,55,7.7,0,24,75,1
+Kalutara,Kalu Ganga,111,7.2,1,24,88,1
+Colombo,Kelani Ganga,2,5.5,0,31,86,1
+Galle,Gin Ganga,176,0.0,1,33,65,1
+Kurunegala,Deduru Oya,14,2.4,0,25,63,0
+Colombo,Kelani Ganga,15,1.9,0,30,67,0
+Galle,Gin Ganga,37,2.0,0,29,65,0
+Gampaha,Attanagalu Oya,231,7.1,1,27,68,1
+Ratnapura,Kalu Ganga,171,4.6,1,33,64,1
+Gampaha,Attanagalu Oya,247,4.1,1,26,79,1
+Colombo,Kelani Ganga,57,2.0,0,24,80,0
+Ratnapura,Kalu Ganga,84,4.4,0,25,73,0
+Galle,Gin Ganga,238,6.8,1,31,93,1
+Kandy,Mahaweli Ganga,193,2.6,1,28,81,1
+Badulla,Mahaweli Ganga,94,3.2,0,24,80,0
+Kandy,Mahaweli Ganga,214,7.4,1,25,66,1
+Kurunegala,Deduru Oya,222,4.7,1,31,62,1
+Badulla,Mahaweli Ganga,206,6.4,1,28,78,1
+Kalutara,Kalu Ganga,9,6.9,0,31,87,1
+Ratnapura,Kalu Ganga,70,3.5,0,33,81,0
+Jaffna,None,108,5.1,1,29,76,1
+Galle,Gin Ganga,96,3.3,0,29,76,0
+Jaffna,None,220,1.1,1,29,74,1
+Kurunegala,Deduru Oya,86,7.7,0,33,74,1
+Matara,Nilwala Ganga,241,1.7,1,31,91,1
+Gampaha,Attanagalu Oya,63,5.3,0,24,87,1
+Badulla,Mahaweli Ganga,43,1.4,0,32,77,0
+Gampaha,Attanagalu Oya,150,3.5,1,30,61,1
+Ratnapura,Kalu Ganga,218,1.4,1,25,79,1
+Ratnapura,Kalu Ganga,132,1.4,1,32,78,1
+Matara,Nilwala Ganga,174,7.1,1,28,77,1
+Ratnapura,Kalu Ganga,123,0.5,1,24,88,1
+Kandy,Mahaweli Ganga,173,3.8,1,31,69,1
+Colombo,Kelani Ganga,17,0.7,0,32,63,0
+Colombo,Kelani Ganga,58,3.8,0,32,70,0
+Matara,Nilwala Ganga,59,6.2,0,25,82,1
+Kalutara,Kalu Ganga,101,1.4,1,31,77,1
+Matara,Nilwala Ganga,120,1.6,1,31,84,1
+Kurunegala,Deduru Oya,103,5.1,1,27,70,1
+Gampaha,Attanagalu Oya,183,5.3,1,29,70,1
+Matara,Nilwala Ganga,215,2.6,1,25,84,1
+Kurunegala,Deduru Oya,87,4.3,0,26,70,0
+Jaffna,None,150,3.3,1,25,65,1
+Galle,Gin Ganga,166,0.1,1,28,77,1
+Kalutara,Kalu Ganga,83,4.0,0,27,75,0
+Galle,Gin Ganga,50,4.6,0,30,71,0
+Kandy,Mahaweli Ganga,9,2.8,0,26,62,0
+Colombo,Kelani Ganga,205,2.8,1,26,76,1
+Kandy,Mahaweli Ganga,198,6.7,1,32,94,1
+Kalutara,Kalu Ganga,97,3.8,0,29,76,0
+Jaffna,None,66,2.8,0,25,87,0
+Jaffna,None,95,0.3,0,27,75,0
+Kandy,Mahaweli Ganga,193,6.2,1,29,92,1
+Colombo,Kelani Ganga,1,1.2,0,25,63,0
+Colombo,Kelani Ganga,40,5.3,0,31,83,1
+Jaffna,None,229,7.7,1,29,75,1
+Badulla,Mahaweli Ganga,7,6.2,0,24,71,1
+Ratnapura,Kalu Ganga,66,7.3,0,32,74,1
+Kalutara,Kalu Ganga,33,2.5,0,33,63,0
+Galle,Gin Ganga,6,7.7,0,28,85,1
+Kandy,Mahaweli Ganga,116,2.6,1,24,64,1
+Kalutara,Kalu Ganga,4,1.3,0,29,75,0
+Kalutara,Kalu Ganga,205,2.4,1,27,71,1
+Kurunegala,Deduru Oya,128,5.1,1,32,69,1
+Kurunegala,Deduru Oya,112,3.2,1,32,69,1
+Badulla,Mahaweli Ganga,15,7.9,0,30,94,1
+Gampaha,Attanagalu Oya,65,4.2,0,24,91,0
+Galle,Gin Ganga,186,2.2,1,27,63,1
+Gampaha,Attanagalu Oya,118,0.4,1,31,85,1
+Kalutara,Kalu Ganga,136,4.6,1,28,63,1
+Kalutara,Kalu Ganga,115,0.4,1,28,64,1
+Gampaha,Attanagalu Oya,153,7.7,1,26,71,1
+Kurunegala,Deduru Oya,176,5.4,1,32,83,1
+Jaffna,None,34,0.1,0,27,76,0
+Matara,Nilwala Ganga,188,6.6,1,25,88,1
+Kandy,Mahaweli Ganga,98,6.2,0,26,85,1
+Kandy,Mahaweli Ganga,57,1.1,0,31,74,0
+Kurunegala,Deduru Oya,146,4.5,1,27,66,1
+Kurunegala,Deduru Oya,84,4.9,0,32,73,0
+Kurunegala,Deduru Oya,123,0.2,1,32,85,1
+Matara,Nilwala Ganga,177,1.0,1,27,67,1
+Kandy,Mahaweli Ganga,175,1.5,1,32,64,1
+Kurunegala,Deduru Oya,62,7.0,0,25,69,1
+Kandy,Mahaweli Ganga,69,1.8,0,24,71,0
+Galle,Gin Ganga,119,1.9,1,29,70,1
+Kalutara,Kalu Ganga,67,2.4,0,33,62,0
+Colombo,Kelani Ganga,208,4.2,1,25,71,1
+Galle,Gin Ganga,244,4.8,1,28,65,1
+Jaffna,None,60,4.8,0,31,89,0
+Kandy,Mahaweli Ganga,124,6.7,1,25,64,1
+Kalutara,Kalu Ganga,236,3.6,1,25,76,1
+Jaffna,None,69,6.2,0,30,92,1
+Galle,Gin Ganga,197,0.2,1,33,79,1
+Jaffna,None,111,7.9,1,24,67,1
+Ratnapura,Kalu Ganga,187,0.0,1,31,82,1
+Gampaha,Attanagalu Oya,220,1.9,1,32,81,1
+Ratnapura,Kalu Ganga,177,1.9,1,25,94,1
+Kalutara,Kalu Ganga,149,6.4,1,31,90,1
+Ratnapura,Kalu Ganga,189,7.1,1,28,81,1
+Galle,Gin Ganga,81,4.9,0,27,79,0
+Kurunegala,Deduru Oya,32,3.3,0,31,95,0
+Ratnapura,Kalu Ganga,8,7.5,0,28,78,1
+Colombo,Kelani Ganga,112,1.1,1,24,93,1
+Jaffna,None,236,2.2,1,33,76,1
+Jaffna,None,245,7.7,1,27,72,1
+Jaffna,None,56,3.5,0,31,85,0
+Galle,Gin Ganga,242,6.1,1,29,91,1
+Colombo,Kelani Ganga,125,6.3,1,27,74,1
+Kurunegala,Deduru Oya,57,2.6,0,27,78,0
+Ratnapura,Kalu Ganga,219,0.8,1,30,83,1
+Colombo,Kelani Ganga,233,3.5,1,33,84,1
+Colombo,Kelani Ganga,17,6.8,0,28,92,1
+Matara,Nilwala Ganga,70,1.1,0,33,91,0
+Matara,Nilwala Ganga,70,5.2,0,27,86,1
+Badulla,Mahaweli Ganga,81,1.5,0,29,74,0
+Kalutara,Kalu Ganga,30,4.5,0,24,91,0
+Kandy,Mahaweli Ganga,169,5.7,1,24,84,1
+Colombo,Kelani Ganga,191,4.2,1,31,66,1
+Matara,Nilwala Ganga,40,6.3,0,30,74,1
+Colombo,Kelani Ganga,168,4.0,1,27,83,1
+Matara,Nilwala Ganga,192,2.3,1,27,86,1
+Kalutara,Kalu Ganga,19,3.5,0,32,83,0
+Kurunegala,Deduru Oya,88,1.4,0,33,63,0
+Colombo,Kelani Ganga,126,4.0,1,28,93,1
+Kandy,Mahaweli Ganga,28,1.8,0,29,65,0
+Matara,Nilwala Ganga,247,7.5,1,32,75,1
+Kurunegala,Deduru Oya,247,7.8,1,25,68,1
+Gampaha,Attanagalu Oya,89,2.4,0,28,82,0
+Badulla,Mahaweli Ganga,46,0.5,0,25,85,0
+Matara,Nilwala Ganga,160,5.6,1,25,67,1
+Gampaha,Attanagalu Oya,143,2.9,1,33,81,1
+Ratnapura,Kalu Ganga,151,5.1,1,33,71,1
+Matara,Nilwala Ganga,72,4.2,0,28,74,0
+Jaffna,None,110,2.6,1,25,84,1
+Ratnapura,Kalu Ganga,169,5.8,1,31,71,1
+Kalutara,Kalu Ganga,60,3.1,0,30,89,0
+Gampaha,Attanagalu Oya,140,4.1,1,26,90,1
+Kurunegala,Deduru Oya,178,3.5,1,24,87,1
+Ratnapura,Kalu Ganga,223,2.7,1,27,72,1
+Colombo,Kelani Ganga,43,5.0,0,31,67,0
+Colombo,Kelani Ganga,38,4.7,0,27,68,0
+Kurunegala,Deduru Oya,46,4.7,0,27,87,0
+Kalutara,Kalu Ganga,19,0.4,0,27,69,0
+Kandy,Mahaweli Ganga,3,7.7,0,31,82,1
+Kandy,Mahaweli Ganga,20,2.9,0,24,89,0
+Kandy,Mahaweli Ganga,5,1.4,0,27,80,0
+Ratnapura,Kalu Ganga,33,0.1,0,28,62,0
+Kurunegala,Deduru Oya,132,5.2,1,26,70,1
+Ratnapura,Kalu Ganga,76,8.0,0,32,70,1
+Jaffna,None,114,7.7,1,32,60,1
+Kalutara,Kalu Ganga,214,1.7,1,29,64,1
+Gampaha,Attanagalu Oya,89,0.8,0,27,85,0
+Ratnapura,Kalu Ganga,81,7.3,0,30,87,1
+Ratnapura,Kalu Ganga,74,1.1,0,27,66,0
+Kandy,Mahaweli Ganga,132,0.4,1,26,83,1
+Kalutara,Kalu Ganga,197,2.1,1,27,65,1
+Badulla,Mahaweli Ganga,236,1.8,1,25,81,1
+Matara,Nilwala Ganga,75,7.8,0,29,73,1
+Kalutara,Kalu Ganga,142,0.0,1,25,73,1
+Badulla,Mahaweli Ganga,247,2.4,1,26,65,1
+Kandy,Mahaweli Ganga,198,6.4,1,26,77,1
+Colombo,Kelani Ganga,96,5.3,0,30,87,1
+Kalutara,Kalu Ganga,231,2.7,1,24,86,1
+Jaffna,None,224,0.2,1,33,76,1
+Gampaha,Attanagalu Oya,201,5.4,1,24,82,1
+Kalutara,Kalu Ganga,171,1.5,1,31,61,1
+Kandy,Mahaweli Ganga,225,6.5,1,30,69,1
+Jaffna,None,174,7.8,1,29,79,1
+Kurunegala,Deduru Oya,212,2.1,1,27,80,1
+Colombo,Kelani Ganga,132,7.6,1,27,70,1
+Kandy,Mahaweli Ganga,5,3.2,0,32,80,0
+Kalutara,Kalu Ganga,121,0.6,1,24,80,1
+Jaffna,None,250,2.7,1,32,74,1
+Matara,Nilwala Ganga,83,7.3,0,33,60,1
+Colombo,Kelani Ganga,217,7.7,1,25,74,1
+Jaffna,None,179,2.3,1,24,67,1
+Kurunegala,Deduru Oya,245,1.4,1,25,72,1
+Matara,Nilwala Ganga,202,1.7,1,31,79,1
+Badulla,Mahaweli Ganga,80,7.8,0,28,90,1
+Gampaha,Attanagalu Oya,84,4.0,0,30,81,0
+Kandy,Mahaweli Ganga,177,3.6,1,27,72,1
+Kandy,Mahaweli Ganga,7,7.0,0,31,94,1
+Gampaha,Attanagalu Oya,193,4.3,1,31,95,1
+Badulla,Mahaweli Ganga,8,4.8,0,25,62,0
+Colombo,Kelani Ganga,102,4.6,1,24,83,1
+Jaffna,None,200,3.0,1,27,68,1
+Kurunegala,Deduru Oya,56,3.1,0,30,91,0
+Matara,Nilwala Ganga,41,0.2,0,30,83,0
+Kandy,Mahaweli Ganga,55,5.7,0,32,85,1
+Kurunegala,Deduru Oya,160,0.4,1,24,77,1
+Jaffna,None,127,4.7,1,27,73,1
+Jaffna,None,187,0.3,1,29,70,1
+Galle,Gin Ganga,140,1.4,1,30,87,1
+Kalutara,Kalu Ganga,188,3.6,1,30,71,1
+Kalutara,Kalu Ganga,87,1.1,0,33,78,0
+Galle,Gin Ganga,66,5.2,0,28,80,1
+Colombo,Kelani Ganga,82,3.8,0,29,77,0
+Jaffna,None,126,5.9,1,31,94,1
+Kalutara,Kalu Ganga,107,6.4,1,27,82,1
+Ratnapura,Kalu Ganga,8,1.5,0,24,76,0
+Kandy,Mahaweli Ganga,135,3.6,1,29,89,1
+Colombo,Kelani Ganga,155,5.2,1,24,92,1
+Badulla,Mahaweli Ganga,83,0.4,0,30,64,0
+Kandy,Mahaweli Ganga,62,7.0,0,25,91,1
+Gampaha,Attanagalu Oya,70,3.3,0,29,63,0
+Ratnapura,Kalu Ganga,155,6.9,1,32,92,1
+Galle,Gin Ganga,144,6.6,1,26,86,1
+Matara,Nilwala Ganga,160,1.9,1,29,71,1
+Gampaha,Attanagalu Oya,110,2.0,1,32,68,1
+Galle,Gin Ganga,199,5.1,1,31,60,1
+Badulla,Mahaweli Ganga,63,1.0,0,33,61,0
+Kandy,Mahaweli Ganga,25,2.1,0,27,72,0
+Badulla,Mahaweli Ganga,81,0.1,0,27,75,0
+Gampaha,Attanagalu Oya,155,0.2,1,32,70,1
+Kalutara,Kalu Ganga,85,7.7,0,26,75,1
+Galle,Gin Ganga,63,5.2,0,32,75,1
+Jaffna,None,231,5.7,1,29,84,1
+Badulla,Mahaweli Ganga,89,6.0,0,25,83,1
+Galle,Gin Ganga,127,3.6,1,33,86,1
+Badulla,Mahaweli Ganga,75,0.6,0,24,74,0
+Ratnapura,Kalu Ganga,200,3.6,1,25,76,1
+Ratnapura,Kalu Ganga,77,2.5,0,33,88,0
+Kurunegala,Deduru Oya,2,2.5,0,26,84,0
+Gampaha,Attanagalu Oya,36,2.8,0,24,89,0
+Jaffna,None,211,3.5,1,26,87,1
+Kurunegala,Deduru Oya,102,3.0,1,24,62,1
+Gampaha,Attanagalu Oya,10,4.7,0,32,79,0
+Badulla,Mahaweli Ganga,50,3.8,0,32,63,0
