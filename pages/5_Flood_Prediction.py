@@ -25,13 +25,13 @@ st.title("AI Flood Prediction")
 st.markdown("""
 This module predicts flood risks using:
 
-✅ Controlled model-development flood dataset
+Controlled model-development flood dataset
 
-✅ River levels
+River levels
 
-✅ DMC alerts
+DMC alerts
 
-✅ Weather conditions
+Weather conditions
 
 using a Random Forest Machine Learning model.
 """)
@@ -42,7 +42,7 @@ using a Random Forest Machine Learning model.
 # =====================================
 
 district = st.selectbox(
-    "📍 Select District",
+    "Select District",
     list(DISTRICTS.keys())
 )
 
@@ -61,7 +61,7 @@ river_mapping = {
 
 river_name = river_mapping[district]
 
-st.info(f"🌊 Associated River: {river_name}")
+st.info(f"Associated River: {river_name}")
 
 district_code = DISTRICTS[district]
 river_code = RIVERS[river_name]
@@ -70,9 +70,9 @@ river_code = RIVERS[river_name]
 # LIVE WEATHER INPUTS
 # =====================================
 
-st.subheader("🌦 Live Weather Information")
+st.subheader("Live Weather Information")
 
-if st.button("🔄 Fetch Live Weather"):
+if st.button("Fetch Live Weather"):
     weather = get_weather(district)
 
     if weather:
@@ -80,10 +80,10 @@ if st.button("🔄 Fetch Live Weather"):
         st.session_state["temperature"] = float(weather["temperature"])
         st.session_state["humidity"] = int(weather["humidity"])
 
-        st.success(f"✅ Live weather data loaded for {district}")
+        st.success(f"Live weather data loaded for {district}")
 
     else:
-        st.error("❌ Could not fetch live weather data.")
+        st.error("Could not fetch live weather data.")
 
 
 # Default values
@@ -102,7 +102,7 @@ col1, col2 = st.columns(2)
 with col1:
 
     rainfall = st.number_input(
-        "🌧 Rainfall - Last Hour (mm)",
+        "Rainfall - Last Hour (mm)",
         min_value=0.0,
         max_value=500.0,
         value=float(st.session_state["rainfall"]),
@@ -122,7 +122,7 @@ if river_data and river_data["water_level"] is not None:
     river_level = float(river_data["water_level"])
 
     st.metric(
-        "🌊 Official Live River Level",
+        "Official Live River Level",
         f"{river_level:.2f} m"
     )
 
@@ -176,7 +176,7 @@ else:
     )
 
     river_level = st.number_input(
-        "🌊 River Level (m)",
+        "River Level (m)",
         min_value=0.0,
         max_value=20.0,
         value=4.0,
@@ -188,7 +188,7 @@ else:
 with col2:
 
     temperature = st.number_input(
-        "🌡 Temperature (°C)",
+        "Temperature (°C)",
         min_value=0.0,
         max_value=50.0,
         value=float(st.session_state["temperature"]),
@@ -196,7 +196,7 @@ with col2:
     )
 
     humidity = st.number_input(
-        "💧 Humidity (%)",
+        "Humidity (%)",
         min_value=0,
         max_value=100,
         value=int(st.session_state["humidity"])
@@ -207,7 +207,7 @@ with col2:
 # LIVE DMC ALERT
 # =====================================
 
-st.subheader("🚨 Live DMC Information")
+st.subheader("Live DMC Information")
 
 dmc_result = check_dmc_alert(river_name)
 
@@ -217,7 +217,7 @@ if dmc_value == 1:
     dmc_alert = "Yes"
 
     st.error(
-        f"🚨 Active DMC Flood Warning Detected for {river_name}"
+        f"Active DMC Flood Warning Detected for {river_name}"
     )
 
     st.warning(
@@ -228,7 +228,7 @@ else:
     dmc_alert = "No"
 
     st.success(
-        f"✅ No recent DMC flood warning detected for {river_name}"
+        f"No recent DMC flood warning detected for {river_name}"
     )
 
     st.caption(
@@ -242,14 +242,14 @@ else:
 
 st.divider()
 
-st.subheader("📢 Emergency Notifications")
+st.subheader("Emergency Notifications")
 
 email = st.text_input(
-    "📧 Email Address (Optional)"
+    "Email Address (Optional)"
 )
 
 phone = st.text_input(
-    "📱 Mobile Number (Optional)"
+    "Mobile Number (Optional)"
 )
 
 
@@ -258,7 +258,7 @@ phone = st.text_input(
 # PREDICT BUTTON
 # =====================================
 
-if st.button("🚀 Predict Flood Risk"):
+if st.button("Predict Flood Risk"):
 
     prediction, probability = predict_flood_risk(
         district_code,
@@ -363,14 +363,14 @@ Flood Probability: {confidence:.2f}%
         confidence
     )
 
-    st.success("✅ Prediction saved to history!")
+    st.success("Prediction saved to history.")
 
     # =====================================
     # EMERGENCY ALERTS
     # =====================================
 
     st.divider()
-    st.subheader("🚨 Emergency Alert System")
+    st.subheader("Emergency Alert System")
 
     alert = get_emergency_alert(
         risk_level,
@@ -397,7 +397,7 @@ Flood Probability: {confidence:.2f}%
             warning_data
         )
 
-        st.warning("🚨 CURRENT OFFICIAL FLOOD WARNING DETECTED")
+        st.warning("CURRENT OFFICIAL FLOOD WARNING DETECTED")
 
         if warning_data:
             st.write(
@@ -406,7 +406,7 @@ Flood Probability: {confidence:.2f}%
             )
 
         if warned_areas:
-            st.write("### 📍 Current Official Warned Areas")
+            st.write("### Current Official Warned Areas")
 
             for area in warned_areas:
                 st.write(f"• {area}")
@@ -419,7 +419,7 @@ Flood Probability: {confidence:.2f}%
 
     else:
         st.info(
-            f"✅ No current official DMC warned areas detected "
+            f"No current official DMC warned areas detected "
             f"for {river_name}."
         )
 
@@ -449,9 +449,9 @@ Flood Probability: {confidence:.2f}%
             )
 
             if success:
-                st.success("📧 Email Alert Sent!")
+                st.success("Email alert sent.")
             else:
-                st.error("❌ Email Sending Failed")
+                st.error("Email sending failed.")
 
         # SMS
         if phone:
@@ -460,7 +460,7 @@ Flood Probability: {confidence:.2f}%
                 district,
                 risk_level
             )
-            st.success("📱 SMS Alert Sent!")
+            st.success("SMS alert sent.")
 
 
     elif risk_level == "CRITICAL":
@@ -487,9 +487,9 @@ Flood Probability: {confidence:.2f}%
             )
 
             if success:
-                st.success("📧 Emergency Email Sent!")
+                st.success("Emergency email sent.")
             else:
-                st.error("❌ Email Sending Failed")
+                st.error("Email sending failed.")
 
         # SMS
         if phone:
@@ -498,7 +498,7 @@ Flood Probability: {confidence:.2f}%
                 district,
                 risk_level
             )
-            st.success("📱 Emergency SMS Sent!")
+            st.success("Emergency SMS sent.")
 
 
     # =====================================
@@ -506,7 +506,7 @@ Flood Probability: {confidence:.2f}%
     # =====================================
 
     st.divider()
-    st.subheader("📊 Prediction Summary")
+    st.subheader("Prediction Summary")
 
     st.write({
         "District": district,
